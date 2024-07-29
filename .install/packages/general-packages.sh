@@ -1,5 +1,6 @@
 packagesPacman=(
     "pacman-contrib"
+    "intel-ucode"
     "vim"
     "bluez"
     "bluez-utils"
