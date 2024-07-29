@@ -63,4 +63,5 @@ packagesYay=(
     "bibata-cursor-theme" 
     "trizen"
     "pacseek"
+    "mercury-browser-bin"
 );
