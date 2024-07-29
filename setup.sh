@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 
-repo="mylinuxforwork/dotfiles"
+repo="Der3l1ct/dotfiles"
 
 # Get latest tag from GitHub
 get_latest_release() {
@@ -147,11 +147,11 @@ version=$(gum choose "rolling-release" "main-release" "cancel")
 if [ "$version" == "main-release" ] ;then
     echo ":: Installing Main Release"
     echo
-    git clone --branch $latest_version --depth 1 https://github.com/mylinuxforwork/dotfiles.git ~/Downloads/dotfiles
+    git clone --branch $latest_version --depth 1 https://github.com/Der3l1ct/dotfiles.git ~/Downloads/dotfiles
 elif [ "$version" == "rolling-release" ] ;then
     echo ":: Installing Rolling Release"
     echo
-    git clone --depth 1 https://github.com/mylinuxforwork/dotfiles.git ~/Downloads/dotfiles
+    git clone --depth 1 https://github.com/Der3l1ct/dotfiles.git ~/Downloads/dotfiles
 elif [ "$version" == "cancel" ] ;then
     echo ":: Setup canceled"
     exit 130    
